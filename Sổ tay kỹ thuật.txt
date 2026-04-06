@@ -1,0 +1,10 @@
+2/9/2024
+
+Khó khan
+- không biết các tải thư viện
+- không biết cách code cho nó hoạt động
+- Chạy hai ngôn ngữ lập trình
+
+Giải pháp
+- tìm hiểu cách giải quyết đến thứ 4
+- tệ nhất thì mua Raspberry Pi4 Model B và cam để đồng bộ quá trình sử dung OpenCV bang python
