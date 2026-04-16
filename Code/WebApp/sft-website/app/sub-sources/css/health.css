@@ -1,0 +1,177 @@
+.health-box {
+  width: 703px;
+  height: 752px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 2%;
+  top: 9.5%;
+  padding: 25px 50px 0px 50px;
+  font-family: "Roboto-Condensed", sans-serif;
+}
+
+.health-box-header {
+  font-family: "Outfit", sans-serif;
+}
+.health-box-header h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.health-box-header p {
+  font-size: 15px;
+  font-weight: light;
+}
+
+.health-box-line {
+  width: 37%;
+  height: 1px;
+  background-color: #59b65a;
+  margin: 20px 0;
+}
+
+.health-box-progress h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.health-box-progress-circle {
+  margin-top: 20px;
+  width: 178px;
+  height: 178px;
+  border-radius: 50%;
+  /* background-color: #59b65a; */
+  position: relative;
+}
+.outer {
+  width: 200px;
+  height: 200px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.inner {
+  height: 140px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15);
+}
+
+#progress-number {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+#progress-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+circle {
+  fill: none;
+  stroke-width: 30px;
+  stroke-dasharray: 550;
+  stroke-dashoffset: 550;
+  animation: anim 2s linear forwards;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.advice {
+  margin-top: 20px;
+  font-family: "Roboto-Condensed", sans-serif;
+}
+.advice h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.advice p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: "Roboto-Condensed", sans-serif;
+}
+
+.ai-advice textarea {
+  width: 75%;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: "Roboto-Condensed", sans-serif;
+}
+
+.advice input {
+  width: 50%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: "Roboto-Condensed", sans-serif;
+}
+
+.advice i {
+  position: relative;
+  left: -33px;
+}
+
+.advice-btn .send-btn {
+  text-align: center;
+  padding: 15px 20px;
+  width: 50%;
+  font-weight: bold;
+  color: #fff;
+  background-color: #59b65a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.save-progress {
+  margin-left: 280px;
+  margin-top: -100px;
+  margin-bottom: 120px;
+}
+
+.save-progress button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.save-progress button:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+.save-btn {
+  background-color: #59b65a;
+  color: #fff;
+}
+
+.save-history {
+  background-color: #fff;
+  color: #59b65a;
+  border: 1px solid #59b65a;
+}

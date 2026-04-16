@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+#main_content {
+  width: 100%;
+  height: 100vh;
+  background-color: #dbe8f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main_content .main_box {
+  width: 82%;
+  height: 95%;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+  position: relative;
+}
+
+footer span {
+  font-family: "Roboto Condensed", sans-serif;
+  position: absolute;
+  bottom: 1em;
+  opacity: 30%;
+  font-size: 1.125em;
+}
+.dark-bg {
+  background-color: #0a1621;
+}
